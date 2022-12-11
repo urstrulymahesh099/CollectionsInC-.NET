@@ -8,7 +8,7 @@ namespace CollectionsInC_.NET
             while (true)
             {
                 Console.WriteLine("Collections Of Elements in C#.NET");
-                Console.WriteLine("Click the below options -\n1.ArrayAtSameStatement\n2.ArrayInitializingSeparately");
+                Console.WriteLine("Click the below options -\n1.ArrayAtSameStatement\n2.ArrayInitializingSeparately\n3.ArrayClassMethodsAndProperties");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option) {
                     case 1:
@@ -19,9 +19,13 @@ namespace CollectionsInC_.NET
                         Console.WriteLine("Creating and Initializing an Array Separately//int[] Numbers = new int[8];//");
                         ArrayInitializingSeparately.Array1();
                         break;
+                    case 3:
+                        Console.WriteLine("Understand Array Class Methods and Properties in C#");
+                        ArrayClassMethodsAndProperties.Name();
+                        break;
                 }
+            }
              
             } 
         }
     }
-}
