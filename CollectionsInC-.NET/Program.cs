@@ -8,7 +8,7 @@ namespace CollectionsInC_.NET
             while (true)
             {
                 Console.WriteLine("Collections Of Elements in C#.NET");
-                Console.WriteLine("Click the below options -\n1.ArrayAtSameStatement\n2.ArrayInitializingSeparately\n3.ArrayClassMethodsAndProperties");
+                Console.WriteLine("Click the below options -\n1.ArrayAtSameStatement\n2.ArrayInitializingSeparately\n3.ArrayClassMethodsAndProperties\n4.Dictionary");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option) {
                     case 1:
@@ -22,6 +22,13 @@ namespace CollectionsInC_.NET
                     case 3:
                         Console.WriteLine("Understand Array Class Methods and Properties in C#");
                         ArrayClassMethodsAndProperties.Name();
+                        break;
+                    case 4:
+                        Console.WriteLine("Understand How to Create a Dictionary<TKey, TValue> Collection and Add Elements in C#:");
+                        Dictionary.Check();
+                        break;
+                        default:
+                        Console.WriteLine("Please select error-free option\nTry again ...........");
                         break;
                 }
             }
